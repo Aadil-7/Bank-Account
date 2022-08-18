@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgb(155, 41, 203),#fff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2rem;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 0px 2px 5px black;
+}
+
+.card{
+    width: 450px;
+    background: linear-gradient(360deg, rgb(117, 51, 117), #fff);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.card button, .card input{
+    height: 3rem;
+    margin: 5px;
+    width: 90%;
+    border: 1px solid rgb(203, 79, 203);
+    text-align: center;
+}
+.card button{
+    background-color: rgb(57, 18, 93);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.card h2{
+    margin: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 0px 2px 5px black;
+}
